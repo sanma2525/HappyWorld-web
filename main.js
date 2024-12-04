@@ -18,7 +18,7 @@ function OP() {
 	sleepSetTimeout(3000, function () {
 		OP.className = "";
 		header.style = "display:flex;";
-		contents.style = "display:flex;";
+		contents.style = "display:block;";
 });
 }
 
